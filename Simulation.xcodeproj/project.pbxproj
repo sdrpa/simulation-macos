@@ -14,16 +14,16 @@
 		B18CB6B71E522FAC00F833DF /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB6B51E522FAC00F833DF /* MainWindowController.swift */; };
 		B18CB6B81E522FAC00F833DF /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18CB6B61E522FAC00F833DF /* MainWindowController.xib */; };
 		B18CB6BA1E522FC500F833DF /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CB6B91E522FC500F833DF /* ColoredView.swift */; };
-		B192DA431EA9332F00BD03FB /* ATCSIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DA401EA9331800BD03FB /* ATCSIM.framework */; };
-		B192DA441EA9332F00BD03FB /* ATCSIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DA401EA9331800BD03FB /* ATCSIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B192DA651EA9369200BD03FB /* FDPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DA621EA9367A00BD03FB /* FDPS.framework */; };
-		B192DA661EA9369200BD03FB /* FDPS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DA621EA9367A00BD03FB /* FDPS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B192DAD41EA947DC00BD03FB /* FoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DAD01EA947AF00BD03FB /* FoundationKit.framework */; };
-		B192DAD51EA947DC00BD03FB /* FoundationKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DAD01EA947AF00BD03FB /* FoundationKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B192DAFB1EA9484300BD03FB /* ATCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DAEA1EA9483400BD03FB /* ATCKit.framework */; };
-		B192DAFC1EA9484300BD03FB /* ATCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DAEA1EA9483400BD03FB /* ATCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B192DB2B1EA9488A00BD03FB /* AirspaceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB141EA9487E00BD03FB /* AirspaceKit.framework */; };
-		B192DB2C1EA9488A00BD03FB /* AirspaceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB141EA9487E00BD03FB /* AirspaceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B192DC301EA95C7900BD03FB /* FoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DC241EA95C3F00BD03FB /* FoundationKit.framework */; };
+		B192DC311EA95C7900BD03FB /* FoundationKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DC241EA95C3F00BD03FB /* FoundationKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B192DC351EA95C8000BD03FB /* FDPS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DBFE1EA95C3900BD03FB /* FDPS.framework */; };
+		B192DC361EA95C8000BD03FB /* FDPS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DBFE1EA95C3900BD03FB /* FDPS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B192DC391EA95C8B00BD03FB /* ATCSIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DBBA1EA95C3200BD03FB /* ATCSIM.framework */; };
+		B192DC3A1EA95C8B00BD03FB /* ATCSIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DBBA1EA95C3200BD03FB /* ATCSIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B192DC3D1EA95C9600BD03FB /* ATCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB8B1EA95C2C00BD03FB /* ATCKit.framework */; };
+		B192DC3E1EA95C9600BD03FB /* ATCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB8B1EA95C2C00BD03FB /* ATCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B192DC411EA95CA300BD03FB /* AirspaceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB621EA95C2600BD03FB /* AirspaceKit.framework */; };
+		B192DC421EA95CA300BD03FB /* AirspaceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B192DB621EA95C2600BD03FB /* AirspaceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,275 +34,275 @@
 			remoteGlobalIDString = B18CB6961E522F9800F833DF;
 			remoteInfo = Simulation;
 		};
-		B192DA2F1EA9331800BD03FB /* PBXContainerItemProxy */ = {
+		B192DB571EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_104;
-			remoteInfo = JSON;
-		};
-		B192DA311EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_105;
-			remoteInfo = FoundationKit;
-		};
-		B192DA331EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_106;
-			remoteInfo = Measure;
-		};
-		B192DA351EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_107;
-			remoteInfo = AircraftKit;
-		};
-		B192DA371EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_108;
-			remoteInfo = ATCKit;
-		};
-		B192DA391EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_109;
-			remoteInfo = AirspaceKit;
-		};
-		B192DA3B1EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_110;
-			remoteInfo = Socket;
-		};
-		B192DA3D1EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_111;
-			remoteInfo = FDPS;
-		};
-		B192DA3F1EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_112;
-			remoteInfo = ATCSIM;
-		};
-		B192DA411EA9331800BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_113;
-			remoteInfo = ATCSIMTests;
-		};
-		B192DA451EA9332F00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_275;
-			remoteInfo = ATCSIM;
-		};
-		B192DA531EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_92;
-			remoteInfo = FoundationKit;
-		};
-		B192DA551EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_93;
-			remoteInfo = JSON;
-		};
-		B192DA571EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_94;
-			remoteInfo = Measure;
-		};
-		B192DA591EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_95;
-			remoteInfo = AircraftKit;
-		};
-		B192DA5B1EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_96;
-			remoteInfo = ATCKit;
-		};
-		B192DA5D1EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_97;
-			remoteInfo = AirspaceKit;
-		};
-		B192DA5F1EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_98;
-			remoteInfo = Socket;
-		};
-		B192DA611EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_99;
-			remoteInfo = FDPS;
-		};
-		B192DA631EA9367A00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_100;
-			remoteInfo = FDPSTests;
-		};
-		B192DA671EA9369200BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_235;
-			remoteInfo = FDPS;
-		};
-		B192DACF1EA947AF00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_21;
-			remoteInfo = FoundationKit;
-		};
-		B192DAD11EA947AF00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_22;
-			remoteInfo = FoundationKitTests;
-		};
-		B192DAD61EA947DC00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_23;
-			remoteInfo = FoundationKit;
-		};
-		B192DAE11EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_84;
-			remoteInfo = JSON;
-		};
-		B192DAE31EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_85;
-			remoteInfo = FoundationKit;
-		};
-		B192DAE51EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_86;
-			remoteInfo = Measure;
-		};
-		B192DAE71EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_87;
-			remoteInfo = AircraftKit;
-		};
-		B192DAE91EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_88;
-			remoteInfo = ATCKit;
-		};
-		B192DAEB1EA9483400BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = OBJ_89;
-			remoteInfo = ATCKitTests;
-		};
-		B192DAFD1EA9484300BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = OBJ_162;
-			remoteInfo = ATCKit;
-		};
-		B192DB091EA9487E00BD03FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_80;
 			remoteInfo = FoundationKit;
 		};
-		B192DB0B1EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB591EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = JSON;
 		};
-		B192DB0D1EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB5B1EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_82;
 			remoteInfo = Measure;
 		};
-		B192DB0F1EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB5D1EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_83;
 			remoteInfo = AircraftKit;
 		};
-		B192DB111EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB5F1EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_84;
 			remoteInfo = ATCKit;
 		};
-		B192DB131EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB611EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_85;
 			remoteInfo = AirspaceKit;
 		};
-		B192DB151EA9487E00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB631EA95C2600BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = OBJ_86;
 			remoteInfo = AirspaceKitTests;
 		};
-		B192DB2D1EA9488A00BD03FB /* PBXContainerItemProxy */ = {
+		B192DB821EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_84;
+			remoteInfo = JSON;
+		};
+		B192DB841EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_85;
+			remoteInfo = FoundationKit;
+		};
+		B192DB861EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_86;
+			remoteInfo = Measure;
+		};
+		B192DB881EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_87;
+			remoteInfo = AircraftKit;
+		};
+		B192DB8A1EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_88;
+			remoteInfo = ATCKit;
+		};
+		B192DB8C1EA95C2C00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_89;
+			remoteInfo = ATCKitTests;
+		};
+		B192DBA91EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_104;
+			remoteInfo = JSON;
+		};
+		B192DBAB1EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_105;
+			remoteInfo = FoundationKit;
+		};
+		B192DBAD1EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_106;
+			remoteInfo = Measure;
+		};
+		B192DBAF1EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_107;
+			remoteInfo = AircraftKit;
+		};
+		B192DBB11EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_108;
+			remoteInfo = ATCKit;
+		};
+		B192DBB31EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_109;
+			remoteInfo = AirspaceKit;
+		};
+		B192DBB51EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_110;
+			remoteInfo = Socket;
+		};
+		B192DBB71EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_111;
+			remoteInfo = FDPS;
+		};
+		B192DBB91EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_112;
+			remoteInfo = ATCSIM;
+		};
+		B192DBBB1EA95C3200BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_113;
+			remoteInfo = ATCSIMTests;
+		};
+		B192DBEF1EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_92;
+			remoteInfo = FoundationKit;
+		};
+		B192DBF11EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_93;
+			remoteInfo = JSON;
+		};
+		B192DBF31EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_94;
+			remoteInfo = Measure;
+		};
+		B192DBF51EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_95;
+			remoteInfo = AircraftKit;
+		};
+		B192DBF71EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_96;
+			remoteInfo = ATCKit;
+		};
+		B192DBF91EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_97;
+			remoteInfo = AirspaceKit;
+		};
+		B192DBFB1EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_98;
+			remoteInfo = Socket;
+		};
+		B192DBFD1EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_99;
+			remoteInfo = FDPS;
+		};
+		B192DBFF1EA95C3900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_100;
+			remoteInfo = FDPSTests;
+		};
+		B192DC231EA95C3F00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_21;
+			remoteInfo = FoundationKit;
+		};
+		B192DC251EA95C3F00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_22;
+			remoteInfo = FoundationKitTests;
+		};
+		B192DC321EA95C7900BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_23;
+			remoteInfo = FoundationKit;
+		};
+		B192DC371EA95C8000BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_235;
+			remoteInfo = FDPS;
+		};
+		B192DC3B1EA95C8B00BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_275;
+			remoteInfo = ATCSIM;
+		};
+		B192DC3F1EA95C9600BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_162;
+			remoteInfo = ATCKit;
+		};
+		B192DC431EA95CA300BD03FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_194;
 			remoteInfo = AirspaceKit;
@@ -310,17 +310,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B18CB6C91E522FE700F833DF /* Embed Frameworks */ = {
+		B192DC341EA95C7900BD03FB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B192DB2C1EA9488A00BD03FB /* AirspaceKit.framework in Embed Frameworks */,
-				B192DAFC1EA9484300BD03FB /* ATCKit.framework in Embed Frameworks */,
-				B192DA441EA9332F00BD03FB /* ATCSIM.framework in Embed Frameworks */,
-				B192DAD51EA947DC00BD03FB /* FoundationKit.framework in Embed Frameworks */,
-				B192DA661EA9369200BD03FB /* FDPS.framework in Embed Frameworks */,
+				B192DC421EA95CA300BD03FB /* AirspaceKit.framework in Embed Frameworks */,
+				B192DC3E1EA95C9600BD03FB /* ATCKit.framework in Embed Frameworks */,
+				B192DC3A1EA95C8B00BD03FB /* ATCSIM.framework in Embed Frameworks */,
+				B192DC311EA95C7900BD03FB /* FoundationKit.framework in Embed Frameworks */,
+				B192DC361EA95C8000BD03FB /* FDPS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,11 +339,11 @@
 		B18CB6B51E522FAC00F833DF /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		B18CB6B61E522FAC00F833DF /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 		B18CB6B91E522FC500F833DF /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
-		B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ATCSIM.xcodeproj; path = ../../../Frameworks/ATCSIM/ATCSIM.xcodeproj; sourceTree = "<group>"; };
-		B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDPS.xcodeproj; path = ../../../Frameworks/FDPS/FDPS.xcodeproj; sourceTree = "<group>"; };
-		B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationKit.xcodeproj; path = ../../../Frameworks/FoundationKit/FoundationKit.xcodeproj; sourceTree = "<group>"; };
-		B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ATCKit.xcodeproj; path = ../../../Frameworks/ATCKit/ATCKit.xcodeproj; sourceTree = "<group>"; };
-		B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirspaceKit.xcodeproj; path = ../../../Frameworks/AirspaceKit/AirspaceKit.xcodeproj; sourceTree = "<group>"; };
+		B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirspaceKit.xcodeproj; path = Dependencies/airspacekit/AirspaceKit.xcodeproj; sourceTree = "<group>"; };
+		B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ATCKit.xcodeproj; path = Dependencies/atckit/ATCKit.xcodeproj; sourceTree = "<group>"; };
+		B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ATCSIM.xcodeproj; path = Dependencies/atcsim/ATCSIM.xcodeproj; sourceTree = "<group>"; };
+		B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FDPS.xcodeproj; path = Dependencies/fdps/FDPS.xcodeproj; sourceTree = "<group>"; };
+		B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FoundationKit.xcodeproj; path = Dependencies/foundationkit/FoundationKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,11 +351,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B192DB2B1EA9488A00BD03FB /* AirspaceKit.framework in Frameworks */,
-				B192DAFB1EA9484300BD03FB /* ATCKit.framework in Frameworks */,
-				B192DA431EA9332F00BD03FB /* ATCSIM.framework in Frameworks */,
-				B192DA651EA9369200BD03FB /* FDPS.framework in Frameworks */,
-				B192DAD41EA947DC00BD03FB /* FoundationKit.framework in Frameworks */,
+				B192DC411EA95CA300BD03FB /* AirspaceKit.framework in Frameworks */,
+				B192DC3D1EA95C9600BD03FB /* ATCKit.framework in Frameworks */,
+				B192DC391EA95C8B00BD03FB /* ATCSIM.framework in Frameworks */,
+				B192DC301EA95C7900BD03FB /* FoundationKit.framework in Frameworks */,
+				B192DC351EA95C8000BD03FB /* FDPS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,11 +372,11 @@
 		B18CB68E1E522F9800F833DF = {
 			isa = PBXGroup;
 			children = (
-				B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */,
-				B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */,
-				B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */,
-				B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */,
-				B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */,
+				B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */,
+				B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */,
+				B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */,
+				B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */,
+				B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */,
 				B18CB6991E522F9800F833DF /* Simulation */,
 				B18CB6A91E522F9800F833DF /* SimulationTests */,
 				B1D1F6411E8E3205006A96ED /* Dependencies */,
@@ -416,71 +416,71 @@
 			path = SimulationTests;
 			sourceTree = "<group>";
 		};
-		B192DA231EA9331800BD03FB /* Products */ = {
+		B192DB4E1EA95C2500BD03FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B192DA301EA9331800BD03FB /* JSON.framework */,
-				B192DA321EA9331800BD03FB /* FoundationKit.framework */,
-				B192DA341EA9331800BD03FB /* Measure.framework */,
-				B192DA361EA9331800BD03FB /* AircraftKit.framework */,
-				B192DA381EA9331800BD03FB /* ATCKit.framework */,
-				B192DA3A1EA9331800BD03FB /* AirspaceKit.framework */,
-				B192DA3C1EA9331800BD03FB /* Socket.framework */,
-				B192DA3E1EA9331800BD03FB /* FDPS.framework */,
-				B192DA401EA9331800BD03FB /* ATCSIM.framework */,
-				B192DA421EA9331800BD03FB /* ATCSIMTests.xctest */,
+				B192DB581EA95C2600BD03FB /* FoundationKit.framework */,
+				B192DB5A1EA95C2600BD03FB /* JSON.framework */,
+				B192DB5C1EA95C2600BD03FB /* Measure.framework */,
+				B192DB5E1EA95C2600BD03FB /* AircraftKit.framework */,
+				B192DB601EA95C2600BD03FB /* ATCKit.framework */,
+				B192DB621EA95C2600BD03FB /* AirspaceKit.framework */,
+				B192DB641EA95C2600BD03FB /* AirspaceKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B192DA481EA9367A00BD03FB /* Products */ = {
+		B192DB7A1EA95C2C00BD03FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B192DA541EA9367A00BD03FB /* FoundationKit.framework */,
-				B192DA561EA9367A00BD03FB /* JSON.framework */,
-				B192DA581EA9367A00BD03FB /* Measure.framework */,
-				B192DA5A1EA9367A00BD03FB /* AircraftKit.framework */,
-				B192DA5C1EA9367A00BD03FB /* ATCKit.framework */,
-				B192DA5E1EA9367A00BD03FB /* AirspaceKit.framework */,
-				B192DA601EA9367A00BD03FB /* Socket.framework */,
-				B192DA621EA9367A00BD03FB /* FDPS.framework */,
-				B192DA641EA9367A00BD03FB /* FDPSTests.xctest */,
+				B192DB831EA95C2C00BD03FB /* JSON.framework */,
+				B192DB851EA95C2C00BD03FB /* FoundationKit.framework */,
+				B192DB871EA95C2C00BD03FB /* Measure.framework */,
+				B192DB891EA95C2C00BD03FB /* AircraftKit.framework */,
+				B192DB8B1EA95C2C00BD03FB /* ATCKit.framework */,
+				B192DB8D1EA95C2C00BD03FB /* ATCKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B192DACB1EA947AF00BD03FB /* Products */ = {
+		B192DB9D1EA95C3200BD03FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B192DAD01EA947AF00BD03FB /* FoundationKit.framework */,
-				B192DAD21EA947AF00BD03FB /* FoundationKitTests.xctest */,
+				B192DBAA1EA95C3200BD03FB /* JSON.framework */,
+				B192DBAC1EA95C3200BD03FB /* FoundationKit.framework */,
+				B192DBAE1EA95C3200BD03FB /* Measure.framework */,
+				B192DBB01EA95C3200BD03FB /* AircraftKit.framework */,
+				B192DBB21EA95C3200BD03FB /* ATCKit.framework */,
+				B192DBB41EA95C3200BD03FB /* AirspaceKit.framework */,
+				B192DBB61EA95C3200BD03FB /* Socket.framework */,
+				B192DBB81EA95C3200BD03FB /* FDPS.framework */,
+				B192DBBA1EA95C3200BD03FB /* ATCSIM.framework */,
+				B192DBBC1EA95C3200BD03FB /* ATCSIMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B192DAD91EA9483400BD03FB /* Products */ = {
+		B192DBE41EA95C3900BD03FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B192DAE21EA9483400BD03FB /* JSON.framework */,
-				B192DAE41EA9483400BD03FB /* FoundationKit.framework */,
-				B192DAE61EA9483400BD03FB /* Measure.framework */,
-				B192DAE81EA9483400BD03FB /* AircraftKit.framework */,
-				B192DAEA1EA9483400BD03FB /* ATCKit.framework */,
-				B192DAEC1EA9483400BD03FB /* ATCKitTests.xctest */,
+				B192DBF01EA95C3900BD03FB /* FoundationKit.framework */,
+				B192DBF21EA95C3900BD03FB /* JSON.framework */,
+				B192DBF41EA95C3900BD03FB /* Measure.framework */,
+				B192DBF61EA95C3900BD03FB /* AircraftKit.framework */,
+				B192DBF81EA95C3900BD03FB /* ATCKit.framework */,
+				B192DBFA1EA95C3900BD03FB /* AirspaceKit.framework */,
+				B192DBFC1EA95C3900BD03FB /* Socket.framework */,
+				B192DBFE1EA95C3900BD03FB /* FDPS.framework */,
+				B192DC001EA95C3900BD03FB /* FDPSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B192DB001EA9487E00BD03FB /* Products */ = {
+		B192DC1F1EA95C3F00BD03FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B192DB0A1EA9487E00BD03FB /* FoundationKit.framework */,
-				B192DB0C1EA9487E00BD03FB /* JSON.framework */,
-				B192DB0E1EA9487E00BD03FB /* Measure.framework */,
-				B192DB101EA9487E00BD03FB /* AircraftKit.framework */,
-				B192DB121EA9487E00BD03FB /* ATCKit.framework */,
-				B192DB141EA9487E00BD03FB /* AirspaceKit.framework */,
-				B192DB161EA9487E00BD03FB /* AirspaceKitTests.xctest */,
+				B192DC241EA95C3F00BD03FB /* FoundationKit.framework */,
+				B192DC261EA95C3F00BD03FB /* FoundationKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -502,16 +502,16 @@
 				B18CB6931E522F9800F833DF /* Sources */,
 				B18CB6941E522F9800F833DF /* Frameworks */,
 				B18CB6951E522F9800F833DF /* Resources */,
-				B18CB6C91E522FE700F833DF /* Embed Frameworks */,
+				B192DC341EA95C7900BD03FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B192DB2E1EA9488A00BD03FB /* PBXTargetDependency */,
-				B192DAFE1EA9484300BD03FB /* PBXTargetDependency */,
-				B192DA461EA9332F00BD03FB /* PBXTargetDependency */,
-				B192DA681EA9369200BD03FB /* PBXTargetDependency */,
-				B192DAD71EA947DC00BD03FB /* PBXTargetDependency */,
+				B192DC441EA95CA300BD03FB /* PBXTargetDependency */,
+				B192DC401EA95C9600BD03FB /* PBXTargetDependency */,
+				B192DC3C1EA95C8B00BD03FB /* PBXTargetDependency */,
+				B192DC381EA95C8000BD03FB /* PBXTargetDependency */,
+				B192DC331EA95C7900BD03FB /* PBXTargetDependency */,
 			);
 			name = Simulation;
 			productName = Simulation;
@@ -572,24 +572,24 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B192DB001EA9487E00BD03FB /* Products */;
-					ProjectRef = B192DAFF1EA9487E00BD03FB /* AirspaceKit.xcodeproj */;
+					ProductGroup = B192DB4E1EA95C2500BD03FB /* Products */;
+					ProjectRef = B192DB4D1EA95C2500BD03FB /* AirspaceKit.xcodeproj */;
 				},
 				{
-					ProductGroup = B192DAD91EA9483400BD03FB /* Products */;
-					ProjectRef = B192DAD81EA9483400BD03FB /* ATCKit.xcodeproj */;
+					ProductGroup = B192DB7A1EA95C2C00BD03FB /* Products */;
+					ProjectRef = B192DB791EA95C2C00BD03FB /* ATCKit.xcodeproj */;
 				},
 				{
-					ProductGroup = B192DA231EA9331800BD03FB /* Products */;
-					ProjectRef = B192DA221EA9331800BD03FB /* ATCSIM.xcodeproj */;
+					ProductGroup = B192DB9D1EA95C3200BD03FB /* Products */;
+					ProjectRef = B192DB9C1EA95C3200BD03FB /* ATCSIM.xcodeproj */;
 				},
 				{
-					ProductGroup = B192DA481EA9367A00BD03FB /* Products */;
-					ProjectRef = B192DA471EA9367A00BD03FB /* FDPS.xcodeproj */;
+					ProductGroup = B192DBE41EA95C3900BD03FB /* Products */;
+					ProjectRef = B192DBE31EA95C3900BD03FB /* FDPS.xcodeproj */;
 				},
 				{
-					ProductGroup = B192DACB1EA947AF00BD03FB /* Products */;
-					ProjectRef = B192DACA1EA947AF00BD03FB /* FoundationKit.xcodeproj */;
+					ProductGroup = B192DC1F1EA95C3F00BD03FB /* Products */;
+					ProjectRef = B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -601,242 +601,242 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B192DA301EA9331800BD03FB /* JSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSON.framework;
-			remoteRef = B192DA2F1EA9331800BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA321EA9331800BD03FB /* FoundationKit.framework */ = {
+		B192DB581EA95C2600BD03FB /* FoundationKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FoundationKit.framework;
-			remoteRef = B192DA311EA9331800BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB571EA95C2600BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B192DA341EA9331800BD03FB /* Measure.framework */ = {
+		B192DB5A1EA95C2600BD03FB /* JSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSON.framework;
+			remoteRef = B192DB591EA95C2600BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB5C1EA95C2600BD03FB /* Measure.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Measure.framework;
-			remoteRef = B192DA331EA9331800BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB5B1EA95C2600BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B192DA361EA9331800BD03FB /* AircraftKit.framework */ = {
+		B192DB5E1EA95C2600BD03FB /* AircraftKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = AircraftKit.framework;
-			remoteRef = B192DA351EA9331800BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB5D1EA95C2600BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B192DA381EA9331800BD03FB /* ATCKit.framework */ = {
+		B192DB601EA95C2600BD03FB /* ATCKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = ATCKit.framework;
-			remoteRef = B192DA371EA9331800BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB5F1EA95C2600BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B192DA3A1EA9331800BD03FB /* AirspaceKit.framework */ = {
+		B192DB621EA95C2600BD03FB /* AirspaceKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = AirspaceKit.framework;
-			remoteRef = B192DA391EA9331800BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB611EA95C2600BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B192DA3C1EA9331800BD03FB /* Socket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Socket.framework;
-			remoteRef = B192DA3B1EA9331800BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA3E1EA9331800BD03FB /* FDPS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FDPS.framework;
-			remoteRef = B192DA3D1EA9331800BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA401EA9331800BD03FB /* ATCSIM.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ATCSIM.framework;
-			remoteRef = B192DA3F1EA9331800BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA421EA9331800BD03FB /* ATCSIMTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = ATCSIMTests.xctest;
-			remoteRef = B192DA411EA9331800BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA541EA9367A00BD03FB /* FoundationKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FoundationKit.framework;
-			remoteRef = B192DA531EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA561EA9367A00BD03FB /* JSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSON.framework;
-			remoteRef = B192DA551EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA581EA9367A00BD03FB /* Measure.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Measure.framework;
-			remoteRef = B192DA571EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA5A1EA9367A00BD03FB /* AircraftKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AircraftKit.framework;
-			remoteRef = B192DA591EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA5C1EA9367A00BD03FB /* ATCKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ATCKit.framework;
-			remoteRef = B192DA5B1EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA5E1EA9367A00BD03FB /* AirspaceKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AirspaceKit.framework;
-			remoteRef = B192DA5D1EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA601EA9367A00BD03FB /* Socket.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Socket.framework;
-			remoteRef = B192DA5F1EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA621EA9367A00BD03FB /* FDPS.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FDPS.framework;
-			remoteRef = B192DA611EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DA641EA9367A00BD03FB /* FDPSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = FDPSTests.xctest;
-			remoteRef = B192DA631EA9367A00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAD01EA947AF00BD03FB /* FoundationKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FoundationKit.framework;
-			remoteRef = B192DACF1EA947AF00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAD21EA947AF00BD03FB /* FoundationKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = FoundationKitTests.xctest;
-			remoteRef = B192DAD11EA947AF00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAE21EA9483400BD03FB /* JSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSON.framework;
-			remoteRef = B192DAE11EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAE41EA9483400BD03FB /* FoundationKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FoundationKit.framework;
-			remoteRef = B192DAE31EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAE61EA9483400BD03FB /* Measure.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Measure.framework;
-			remoteRef = B192DAE51EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAE81EA9483400BD03FB /* AircraftKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AircraftKit.framework;
-			remoteRef = B192DAE71EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAEA1EA9483400BD03FB /* ATCKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ATCKit.framework;
-			remoteRef = B192DAE91EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DAEC1EA9483400BD03FB /* ATCKitTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = file;
-			path = ATCKitTests.xctest;
-			remoteRef = B192DAEB1EA9483400BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB0A1EA9487E00BD03FB /* FoundationKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = FoundationKit.framework;
-			remoteRef = B192DB091EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB0C1EA9487E00BD03FB /* JSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSON.framework;
-			remoteRef = B192DB0B1EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB0E1EA9487E00BD03FB /* Measure.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Measure.framework;
-			remoteRef = B192DB0D1EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB101EA9487E00BD03FB /* AircraftKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AircraftKit.framework;
-			remoteRef = B192DB0F1EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB121EA9487E00BD03FB /* ATCKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ATCKit.framework;
-			remoteRef = B192DB111EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB141EA9487E00BD03FB /* AirspaceKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AirspaceKit.framework;
-			remoteRef = B192DB131EA9487E00BD03FB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B192DB161EA9487E00BD03FB /* AirspaceKitTests.xctest */ = {
+		B192DB641EA95C2600BD03FB /* AirspaceKitTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = file;
 			path = AirspaceKitTests.xctest;
-			remoteRef = B192DB151EA9487E00BD03FB /* PBXContainerItemProxy */;
+			remoteRef = B192DB631EA95C2600BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB831EA95C2C00BD03FB /* JSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSON.framework;
+			remoteRef = B192DB821EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB851EA95C2C00BD03FB /* FoundationKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationKit.framework;
+			remoteRef = B192DB841EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB871EA95C2C00BD03FB /* Measure.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Measure.framework;
+			remoteRef = B192DB861EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB891EA95C2C00BD03FB /* AircraftKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AircraftKit.framework;
+			remoteRef = B192DB881EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB8B1EA95C2C00BD03FB /* ATCKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ATCKit.framework;
+			remoteRef = B192DB8A1EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DB8D1EA95C2C00BD03FB /* ATCKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = ATCKitTests.xctest;
+			remoteRef = B192DB8C1EA95C2C00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBAA1EA95C3200BD03FB /* JSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSON.framework;
+			remoteRef = B192DBA91EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBAC1EA95C3200BD03FB /* FoundationKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationKit.framework;
+			remoteRef = B192DBAB1EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBAE1EA95C3200BD03FB /* Measure.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Measure.framework;
+			remoteRef = B192DBAD1EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBB01EA95C3200BD03FB /* AircraftKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AircraftKit.framework;
+			remoteRef = B192DBAF1EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBB21EA95C3200BD03FB /* ATCKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ATCKit.framework;
+			remoteRef = B192DBB11EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBB41EA95C3200BD03FB /* AirspaceKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AirspaceKit.framework;
+			remoteRef = B192DBB31EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBB61EA95C3200BD03FB /* Socket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Socket.framework;
+			remoteRef = B192DBB51EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBB81EA95C3200BD03FB /* FDPS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FDPS.framework;
+			remoteRef = B192DBB71EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBBA1EA95C3200BD03FB /* ATCSIM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ATCSIM.framework;
+			remoteRef = B192DBB91EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBBC1EA95C3200BD03FB /* ATCSIMTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = ATCSIMTests.xctest;
+			remoteRef = B192DBBB1EA95C3200BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBF01EA95C3900BD03FB /* FoundationKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationKit.framework;
+			remoteRef = B192DBEF1EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBF21EA95C3900BD03FB /* JSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSON.framework;
+			remoteRef = B192DBF11EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBF41EA95C3900BD03FB /* Measure.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Measure.framework;
+			remoteRef = B192DBF31EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBF61EA95C3900BD03FB /* AircraftKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AircraftKit.framework;
+			remoteRef = B192DBF51EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBF81EA95C3900BD03FB /* ATCKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ATCKit.framework;
+			remoteRef = B192DBF71EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBFA1EA95C3900BD03FB /* AirspaceKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AirspaceKit.framework;
+			remoteRef = B192DBF91EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBFC1EA95C3900BD03FB /* Socket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Socket.framework;
+			remoteRef = B192DBFB1EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DBFE1EA95C3900BD03FB /* FDPS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FDPS.framework;
+			remoteRef = B192DBFD1EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DC001EA95C3900BD03FB /* FDPSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = FDPSTests.xctest;
+			remoteRef = B192DBFF1EA95C3900BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DC241EA95C3F00BD03FB /* FoundationKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FoundationKit.framework;
+			remoteRef = B192DC231EA95C3F00BD03FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B192DC261EA95C3F00BD03FB /* FoundationKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = FoundationKitTests.xctest;
+			remoteRef = B192DC251EA95C3F00BD03FB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -888,30 +888,30 @@
 			target = B18CB6961E522F9800F833DF /* Simulation */;
 			targetProxy = B18CB6A71E522F9800F833DF /* PBXContainerItemProxy */;
 		};
-		B192DA461EA9332F00BD03FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ATCSIM;
-			targetProxy = B192DA451EA9332F00BD03FB /* PBXContainerItemProxy */;
-		};
-		B192DA681EA9369200BD03FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FDPS;
-			targetProxy = B192DA671EA9369200BD03FB /* PBXContainerItemProxy */;
-		};
-		B192DAD71EA947DC00BD03FB /* PBXTargetDependency */ = {
+		B192DC331EA95C7900BD03FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FoundationKit;
-			targetProxy = B192DAD61EA947DC00BD03FB /* PBXContainerItemProxy */;
+			targetProxy = B192DC321EA95C7900BD03FB /* PBXContainerItemProxy */;
 		};
-		B192DAFE1EA9484300BD03FB /* PBXTargetDependency */ = {
+		B192DC381EA95C8000BD03FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDPS;
+			targetProxy = B192DC371EA95C8000BD03FB /* PBXContainerItemProxy */;
+		};
+		B192DC3C1EA95C8B00BD03FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATCSIM;
+			targetProxy = B192DC3B1EA95C8B00BD03FB /* PBXContainerItemProxy */;
+		};
+		B192DC401EA95C9600BD03FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATCKit;
-			targetProxy = B192DAFD1EA9484300BD03FB /* PBXContainerItemProxy */;
+			targetProxy = B192DC3F1EA95C9600BD03FB /* PBXContainerItemProxy */;
 		};
-		B192DB2E1EA9488A00BD03FB /* PBXTargetDependency */ = {
+		B192DC441EA95CA300BD03FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AirspaceKit;
-			targetProxy = B192DB2D1EA9488A00BD03FB /* PBXContainerItemProxy */;
+			targetProxy = B192DC431EA95CA300BD03FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

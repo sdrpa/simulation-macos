@@ -1,0 +1,17 @@
+#!/bin/bash
+
+SCRIPT="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
+DIR="Dependencies"
+
+cd "$SCRIPT"
+rm -rf "$SCRIPT/$DIR"
+mkdir "$SCRIPT/$DIR"
+
+declare -a modules=("airspacekit" "atckit" "atcsim" "fdps" "foundationkit")
+
+for module in "${modules[@]}"
+do
+	git clone "https://github.com/sdrpa/$module.git" "$SCRIPT/$DIR/$module"
+   	cd "$SCRIPT/$DIR/$module"
+   	swift package generate-xcodeproj
+done
