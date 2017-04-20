@@ -4,7 +4,14 @@
 
 Simulation app using [OATC](http://oatc.io) modules.
 
-<img src="Assets/Images/simulation-screenshot.png" alt="Map Window" width="400" hspace="20">
+<img src="Assets/Images/simulation-screenshot.png" alt="Map Window" width="600" hspace="20">
+
+# Build Instructions
+
+1. Clone the source repository: ```git clone https://github.com/sdrpa/simulation-macos.git```
+2. Run: ```./prepare``` script inside simulation-macos directory. 
+<small>Prepare script will fetch OATC modules the project depends on and generate xcode project for each module</small>
+3. Open ```Simulation.xcodeproj``` and run.
 
 # Contributions
 
