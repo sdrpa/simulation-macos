@@ -379,7 +379,6 @@
 				B192DC1E1EA95C3F00BD03FB /* FoundationKit.xcodeproj */,
 				B18CB6991E522F9800F833DF /* Simulation */,
 				B18CB6A91E522F9800F833DF /* SimulationTests */,
-				B1D1F6411E8E3205006A96ED /* Dependencies */,
 				B18CB6981E522F9800F833DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -483,13 +482,6 @@
 				B192DC261EA95C3F00BD03FB /* FoundationKitTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B1D1F6411E8E3205006A96ED /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
