@@ -43,7 +43,20 @@ final class MainWindowController: NSWindowController {
         }
     }
 
-    let server = FDPServer(port: 1337)
+    var server: FDPServer?
+    // We cache the last message to broadcast it when a new client connects.
+    var lastMessage: Messageable?
+
+    override init(window: NSWindow?) {
+        super.init(window: window)
+
+        self.server = FDPServer(port: 1337)
+        self.server?.delegate = self
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     var minimumSpeed: Int {
         return Simulation.minimumSpeed
@@ -83,10 +96,11 @@ final class MainWindowController: NSWindowController {
                 typealias FlightsUpdate = FDPS.Message.FlightsUpdate
                 let message = FlightsUpdate(timestamp: result.timestamp,
                                             flights: result.flights)
-                self?.server.broadcast(flightsUpdate: message)
-                //print("Simulation update at \(Date())")
+                self?.server?.broadcast(flightsUpdate: message)
+
+                self?.lastMessage = message
             }
-            //self.simulation?.timestamp = 0
+            self.simulation?.timestamp = 0
         }
     }
 
@@ -191,6 +205,15 @@ final class MainWindowController: NSWindowController {
             return nil
         }
         return Simulation(scenario: scenario)
+    }
+}
+
+extension MainWindowController: FDPServerDelegate {
+
+    func serverDidAcceptConnection(_ server: FDPServer) {
+        if let lastMessage = self.lastMessage as? Message.FlightsUpdate {
+            self.server?.broadcast(flightsUpdate: lastMessage)
+        }
     }
 }
 
