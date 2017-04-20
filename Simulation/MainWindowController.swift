@@ -64,8 +64,9 @@ final class MainWindowController: NSWindowController {
             self.scenarioDescription = self.simulation?.scenario.description
 
             // Set slider range
-            self.slider.maxValue = Double(1000 * 3600)
-            self.sliderEndTimeTextField.stringValue = String(timeInterval: 1000 * 3600) ?? "00:00:00"
+            //self.slider.maxValue = 60.0 * 30.0 // 30 min
+            let end = String(timeInterval: slider.maxValue) ?? "00:00:00"
+            self.sliderEndTimeTextField.stringValue = end
 
             self.enableUIIfNecessary()
 
@@ -74,14 +75,18 @@ final class MainWindowController: NSWindowController {
                 self?.playButton.title = isRunning ? "Pause" : "Play"
                 self?.playStatusView.backgroundColor = isRunning ? .green : .red
             }
-            self.simulation?.timeUpdate = { [weak self] currentTime in
-                self?.timeTextField.stringValue = String(timeInterval: currentTime) ?? "00:00:00"
-                self?.slider.floatValue = Float(currentTime)
+            self.simulation?.simulationUpdate = { [weak self] result in
+                let current = String(timeInterval: result.timestamp) ?? "00:00:00"
+                self?.timeTextField.stringValue = current
+                self?.slider.floatValue = Float(result.timestamp)
+
+                typealias FlightsUpdate = FDPS.Message.FlightsUpdate
+                let message = FlightsUpdate(timestamp: result.timestamp,
+                                            flights: result.flights)
+                self?.server.broadcast(flightsUpdate: message)
+                //print("Simulation update at \(Date())")
             }
-            self.simulation?.simulationUpdate = { [weak self] flights in
-                self?.server.broadcast(flights: flights)
-                print("Simulation update at \(Date())")
-            }
+            //self.simulation?.timestamp = 0
         }
     }
 
@@ -133,7 +138,8 @@ final class MainWindowController: NSWindowController {
     }
 
     @IBAction func scrub(_ sender: NSSlider) {
-        self.simulation?.simulate(to: TimeInterval(sender.floatValue))
+        print("Scrub to: \(TimeInterval(ceil(sender.floatValue)))")
+        self.simulation?.timestamp = TimeInterval(ceil(sender.floatValue))
     }
 
     override func setNilValueForKey(_ key: String) {
